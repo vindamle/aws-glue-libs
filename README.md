@@ -31,3 +31,12 @@ pytest: ./bin/gluepytest
 ## Licensing
 
 The libraries in this repository licensed under the [Amazon Software License](http://aws.amazon.com/asl/) (the "License"). They may not be used except in compliance with the License, a copy of which is included here in the LICENSE file.
+
+### Notes
+
+Requirements
+
+python3 (<= 3.7, does not work with python version 3.8)
+
+jdk8 (JDK_HOME set to jdk8)
+

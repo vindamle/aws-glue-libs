@@ -18,6 +18,19 @@
       <groupId>com.amazonaws</groupId>
       <artifactId>AWSGlueETL</artifactId>
       <version>${project.version}</version>
+      <exclusions>
+        <exclusion>  <!-- declare the exclusion here -->
+          <groupId>io.netty</groupId>
+          <artifactId>netty-all</artifactId>
+		  <!--<version>netty-all-4.0.23</version>-->
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/io.netty/netty-all -->
+    <dependency>
+        <groupId>io.netty</groupId>
+        <artifactId>netty-all</artifactId>
+        <version>4.1.17.Final</version>
     </dependency>
   </dependencies>
   <repositories>
